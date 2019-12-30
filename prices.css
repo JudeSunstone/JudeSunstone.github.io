@@ -1,0 +1,8 @@
+@import url('./layout/basic.css'); /*это медленнее,бустрее через линк 
+в head. страниц 10 проекта еще можно так делать*/
+@import url('./layout/header.css');
+@import url('./layout/breadcrumbs.css');
+@import url('./layout/sidebar.css');
+@import url('./layout/all-rates.css');
+@import url('./layout/partners.css');
+@import url('./layout/footer.css');
