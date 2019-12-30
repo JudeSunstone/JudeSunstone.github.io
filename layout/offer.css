@@ -1,0 +1,21 @@
+.offer {
+    width: 100%; /*why is not working? container overflow?*/
+    background-image: url('../pictures/offer_bg.JPG');
+    background-repeat: repeat;
+    height: 175px;
+    margin-bottom: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer__text {
+    color: #ffffff;
+    text-align: center;
+    width: 620px;
+}
+
+.offer__text span {
+    color: #ec1e79;
+    font-weight: bold;
+}

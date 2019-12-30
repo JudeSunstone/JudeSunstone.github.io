@@ -1,0 +1,79 @@
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+   /* width: 100%; why not working? vw?*/
+}
+
+.footer {
+
+    background-color: #27273e;
+    color: #ffffff;
+    position: fixed; /*sticky footer, which is bad, but somehow working. What to do?*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: all 0.2s ease-out;
+}
+
+.footer_col {
+    margin: 15px 0 5px 0;
+    height: 53px;
+}
+.footer__text {
+    width: 280px;
+    padding: 15px 0 5px 0;
+    font-size: 14px;
+
+}
+.footer__logo {
+    padding: 15px 0 5px 0;
+}
+.socials {
+    padding: 15px 0 5px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Gotham Pro Bold';
+}
+
+.footer__author {
+    font-family: 'Gotham Pro Bold';
+}
+
+.socials__list {
+    display: flex;
+}
+
+.socials__link  {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url(../pictures/css_sprites.png) no-repeat;
+    background-color: #bebec5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+.socials__link:hover  {
+    background-color: #f1579b;
+}
+.socials__link_vk { 
+    background-position:  -117px -7px;
+}
+
+.socials__link_fb { 
+    background-position:  -6px -8px;
+}
+
+

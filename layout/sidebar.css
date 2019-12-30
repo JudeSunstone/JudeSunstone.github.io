@@ -1,0 +1,43 @@
+.sidebar-navigation {
+    padding-right: 70px;
+    margin-top: 25px;
+}
+
+.nav ul {
+    list-style: none;
+    /*margin-left: 20px; /* Отступ слева в браузере IE и Opera */
+    /*padding-left: 20px; */ /* Отступ слева в браузере Firefox, Safari, Chrome */ 
+    font: 15px/4.5 Arial, sans-serif;
+    font-family: Gotham Pro Bold;
+    text-transform: uppercase;
+}
+nav a {
+    text-decoration: none;
+    color: #ec1e79;
+}
+/*.nav__item a:hover  {
+    color:black;
+}*/
+.nav__item_rates:hover,
+.nav__item_rates:active, 
+.nav__item_rewiew:hover,
+.nav__item_rewiew:active,
+.nav__item_main:hover,
+.nav__item_main:active 
+{ filter: grayscale(100%); -webkit-filter: grayscale(100%);
+}
+
+.nav__item_main{
+    background: url("../pictures/main_icon.png")  left center no-repeat; /* Параметры фона */
+    padding-left: 45px; /* Смещаем текст вправо */
+}
+.nav__item_rewiew{
+    background: url("../pictures/feed_icon.png") left center no-repeat ; /* Параметры фона */
+    padding-left: 45px; /* Смещаем текст вправо */
+}
+.nav__item_rates{
+    background: url("../pictures/wallet_icon-pink.png")  left center  no-repeat; /* Параметры фона */
+    padding-left: 45px; /* Смещаем текст вправо */
+}
+
+

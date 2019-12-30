@@ -1,0 +1,22 @@
+.breadcrumbs__item {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 44px;
+}
+.breadcrumbs__item:after {
+    content: '/';
+    /*display: none;*/
+}
+.breadcrumbs__item:last-child:after {
+    content: '';
+}
+.breadcrumbs__link{
+    font-family: "Gotham Pro Italic";
+    font-size: 14px;
+    color: #f1579b;
+}
+
+.breadcrumbs__link_active {
+    color: #221f1f;
+    text-decoration: none;
+}

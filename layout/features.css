@@ -1,0 +1,61 @@
+.features{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 30px;
+}
+
+.features__item {
+    width: 210px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature__title{
+    margin-top: 31px;
+}
+
+.features__picture {
+    height: 70px;
+    width: 70px;
+    background-color: #27273e;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.features__name {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+img.features__picture {
+    height: 30px;
+    width: 30px;
+    transform: translate(65%, 65%);
+    -webkit-transform: translate(65%, 65%);
+    -moz-transform: translate(65%, 65%);
+    -ms-transform: translate(65%, 65%);
+    -o-transform: translate(65%, 65%);
+} /*why works on liveserver, but not offline*/
+
+.features__description{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.features__description,
+.features__offered {
+    line-height: 2em;
+}
+
+.features__offered-details:before {
+    color: #cc3366;
+    content: "•";
+    padding-right: 30px; /* Расстояние от маркера до текста */
+}

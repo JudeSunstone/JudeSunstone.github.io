@@ -1,0 +1,27 @@
+.news__title, .reviews__title {
+    margin-top: 15px;
+}
+.news__item, .reviews__item {
+    display: flex;
+    margin-bottom: 50px;
+}
+.news__picture, .reviews__picture {
+    margin-right: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.news__block, .reviews__description-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.reviews__picture_no-picture {
+    background-color: #f5f5f5;
+}

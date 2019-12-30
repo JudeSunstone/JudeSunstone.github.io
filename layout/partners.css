@@ -1,0 +1,26 @@
+.partners__header {
+    font-family: 'Gotham Pro Bold';
+    font-size: 49px;
+    margin-bottom: 45px;
+}
+.partners__container {
+    display: flex; 
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.partners__link {
+    width: 33%;
+    margin-bottom: 55px;
+}
+.partners__link:nth-child(6){
+    padding-left: 40px;
+}
+.partners__picture {
+    max-width: 100%;
+    opacity: 0.6;
+}
+.partners__picture:hover {
+    opacity: 1;
+}
